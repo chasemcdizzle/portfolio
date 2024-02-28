@@ -38,8 +38,10 @@ export function BackgroundBoxesDemo() {
         >
           Nicholas Chase
         </h1>
-        <div className=" text-lg md:text-xl text-center mt-2 relative z-20 flex justify-center items-baseline">
-          <span className="mr-2">Is a</span>
+        <div className=" text-lg md:text-xl  mt-2 relative z-20 flex flex-col md:flex-row justify-center items-baseline">
+          <span className="mr-2 md:w-fit w-full text-center md:text-left">
+            Is a
+          </span>
           <div className="font-bold" style={{ display: "inline" }}>
             <Typewriter
               options={{
