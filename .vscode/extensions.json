@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "rvest.vs-code-prettier-eslint",
+    "Cardinal90.multi-cursor-case-preserve",
+    "heybourn.headwind",
+    "yoavbls.pretty-ts-errors",
+    "Prisma.prisma",
+    "bradlc.vscode-tailwindcss",
+    "pmneo.tsimporter",
+    "rodrigovallades.es7-react-js-snippets"
+  ]
+}
