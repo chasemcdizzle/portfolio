@@ -8,7 +8,7 @@ const Education = () => {
     <>
       <div className="flex flex-col">
         <h1
-          className={`text-5xl font-bold black w-fit text-cen text-primary pl-4`}
+          className={`text-3xl md:text-5xl font-bold black w-fit text-cen text-primary pl-4`}
         >
           {/* !!!!!!!! PUT MOVING BORDER AROUND THIS ONE? https://ui.aceternity.com/components/moving-border */}
           Education
@@ -36,7 +36,7 @@ const Education = () => {
               translateZ="100"
               rotateX={20}
               rotateZ={-10}
-              className="w-full mt-10"
+              className="mt-10 w-full"
             >
               <Image
                 src="/ucsc.jpg"
@@ -46,13 +46,16 @@ const Education = () => {
                 alt="thumbnail"
               />
             </CardItem>
-            <div className="flex mt-5 w-full text-right">
+            <div className="flex mt-5 w-full">
               <CardItem
-                translateZ={20}
-                translateX={250}
+                translateZ="100"
+                translateY="10"
+                rotateX={-20}
+                rotateY={-20}
+                rotateZ={-10}
                 className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white text-right"
               >
-                Sep 2011 - Dec 2015
+                <div className="w-full">Sep 2011 - Dec 2015</div>
               </CardItem>
             </div>
           </CardBody>

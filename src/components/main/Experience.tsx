@@ -6,11 +6,11 @@ const Experience = () => {
   return (
     <>
       <h1
-        className={` text-5xl font-bold black w-fit text-cen text-primary pl-4`}
+        className={`text-3xl md:text-5xl font-bold black w-fit text-cen text-primary pl-4`}
       >
         Experience
       </h1>
-      <div className="flex h-full items-center align-middle justify-between px-6 py-1 gap-x-6">
+      <div className="flex flex-col md:flex-row gap-y-6 h-full items-center align-middle justify-between px-6 py-1 gap-x-6">
         <div className="h-full relative max-w-xs min-w-[260px] w-[260px]">
           <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
           <div className="relative shadow-xl bg-secondary border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">

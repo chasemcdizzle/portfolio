@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <>
       <h1
-        className={` text-5xl font-bold black w-fit text-center text-primary pl-4`}
+        className={`text-3xl md:text-5xl font-bold black w-fit text-center text-primary pl-4`}
       >
         About Me
       </h1>

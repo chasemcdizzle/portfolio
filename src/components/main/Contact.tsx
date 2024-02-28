@@ -6,7 +6,7 @@ import { Linkedin } from "lucide-react";
 const Contact = () => {
   return (
     <footer className="absolute z-300 w-full h-60">
-      <div className="w-full h-full flex justify-between items-center bg-background border-t border-b-secondary z-300">
+      <div className="w-full h-full flex justify-between items-center bg-background border-t border-b-secondary z-300 md:px-0 px-3">
         <div className="flex flex-col w-full align-middle items-center">
           <div className="w-fit">
             <h1
@@ -22,12 +22,12 @@ const Contact = () => {
                 Have an exciting opportunity? <br />
               </p>
               {/* <p className="text-right font-bold">Reach out to me!</p> */}
-              <p
-                className={`text-right font-bold black text-transparent relative z-101 bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500`}
-              >
-                Reach out to me!
-              </p>
             </div>
+            <p
+              className={`text-right font-bold black text-transparent relative z-101 bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500`}
+            >
+              Reach out to me!
+            </p>
           </div>
         </div>
         <div className="socials w-screen flex flex-col align-middle items-center text-left ">

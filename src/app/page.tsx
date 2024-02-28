@@ -36,31 +36,38 @@ export default function Home() {
 
         {/* Content */}
         <div className="flex flex-col gap-y-52">
-          <div id="about" className={`md:px-32 flex flex-col gap-y-4`}>
+          <div id="about" className={`md:px-32 px-3 flex flex-col gap-y-4`}>
             <AboutMe />
           </div>
 
-          <div id={`skills`} className={`md:px-32 flex flex-col gap-y-4`}>
+          <div id={`skills`} className={`md:px-32 px-3 flex flex-col gap-y-4`}>
             <Skills />
           </div>
 
-          <div id={`experience`} className={`md:px-32 flex flex-col gap-y-4`}>
+          <div
+            id={`experience`}
+            className={`md:px-32 px-3 flex flex-col gap-y-4`}
+          >
             <Experience />
           </div>
-          <div id={`education`} className={`md:px-32 flex flex-col gap-y-4`}>
+          <div
+            id={`education`}
+            className={`md:px-32 px-3 flex flex-col gap-y-4`}
+          >
             <Education />
           </div>
           <div id={`projects`} className={`px-0 flex flex-col gap-y-4`}>
             <Projects />
           </div>
-          <div id={`contact`}>
-            <Contact />
-          </div>
+
           {/* <div id={`contact`} className={`px-8 flex flex-col gap-y-4`}>
             
           </div> */}
         </div>
       </TracingBeam>
+      <div id={`contact`}>
+        <Contact />
+      </div>
     </main>
   );
 }

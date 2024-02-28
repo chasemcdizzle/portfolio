@@ -34,7 +34,7 @@ export function BackgroundBoxesDemo() {
           />
         </div>
         <h1
-          className={` text-7xl font-bold black text-transparent relative z-101 bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500 text-center w-fit`}
+          className={`text-5xl md:text-7xl font-bold black text-transparent relative z-101 bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500 text-center w-fit`}
         >
           Nicholas Chase
         </h1>

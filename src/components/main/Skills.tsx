@@ -5,7 +5,9 @@ import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 const Skills = () => {
   return (
     <>
-      <h1 className={` text-5xl font-bold black w-fit text-primary pl-4`}>
+      <h1
+        className={`text-3xl md:text-5xl font-bold black w-fit text-primary pl-4`}
+      >
         Skills
       </h1>
       <div className=" w-full dark:bg-background bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex flex-col items-center justify-center">
