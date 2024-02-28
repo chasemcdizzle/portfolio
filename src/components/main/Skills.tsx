@@ -5,12 +5,10 @@ import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 const Skills = () => {
   return (
     <>
-      <h1
-        className={` text-5xl font-bold black w-fit text-cen text-primary pl-4`}
-      >
+      <h1 className={` text-5xl font-bold black w-fit text-primary pl-4`}>
         Skills
       </h1>
-      <div className="h-[50rem] w-full dark:bg-background bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
+      <div className="h-[50rem] w-full dark:bg-background bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center flex flex-col">
         {/* Radial gradient for the container to give a faded look */}
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-background bg-white [mask-image:radial-gradient(ellipse_at_center,transparent,black)]"></div>
         <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
@@ -18,6 +16,12 @@ const Skills = () => {
             <AnimatedTooltip items={skills} />
           </div>
         </p>
+        <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-2">
+          <div className="flex flex-row items-center justify-center mb-10 w-full">
+            <AnimatedTooltip items={skills} />
+          </div>
+        </p>
+        <br />
       </div>
     </>
   );

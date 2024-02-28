@@ -49,8 +49,8 @@ export default function Home() {
             Developer, React Native Cross-Platform Mobile Developer, Android
             Developer, Micro Embedded Developer, and Cloud Architect. In my free
             time I can be found coding personal projects, reverse engineering
-            compiled applications, producing electronic music, skateboarding,
-            and attending live music events.
+            software, producing electronic music, skateboarding, and attending
+            live music events.
           </p>
         </div>
 
