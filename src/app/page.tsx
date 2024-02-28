@@ -5,6 +5,7 @@ import Hero from "@/components/main/Hero";
 import { BackgroundBoxesDemo } from "@/components/main/HeroBgBoxes";
 import { NavBar } from "@/components/ui/NavBar";
 import Skills from "@/components/main/Skills";
+import Experience from "@/components/main/Experience";
 
 export default function Home() {
   const aboutRef = useRef<HTMLDivElement | null>(null);
@@ -58,12 +59,8 @@ export default function Home() {
           <Skills />
         </div>
 
-        <div id={`experience`} className={`px-8 flex flex-col gap-y-4`}>
-          <h1
-            className={` text-5xl font-bold black w-fit text-cen text-primary pl-4`}
-          >
-            Experience
-          </h1>
+        <div id={`experience`} className={`px-8 flex flex-col gap-y-4 h-80`}>
+          <Experience />
         </div>
         <div id={`education`} className={`px-8 flex flex-col gap-y-4`}>
           <h1
