@@ -10,6 +10,7 @@ import Skills from "@/components/main/Skills";
 import Experience from "@/components/main/Experience";
 import Education from "@/components/main/Education";
 import Projects from "@/components/main/Projects";
+import Contact from "@/components/main/Contact";
 
 export default function Home() {
   const aboutRef = useRef<HTMLDivElement | null>(null);
@@ -23,7 +24,10 @@ export default function Home() {
 
   return (
     <main className="h-full w-screen">
+      {/* NavBar */}
       <NavBar onNavigate={handleNavigate} />
+
+      {/* Tracing Beam */}
       <TracingBeam className="px-6">
         <div className="flex flex-col gap-20 items-center">
           {/* <Hero /> */}
@@ -31,37 +35,30 @@ export default function Home() {
         </div>
 
         {/* Content */}
-        <div className="flex flex-col gap-y-8">
-          {/* <h1
-          className={` text-7xl font-bold black text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500 text-center w-fit`}
-        >
-          Nicholas <span className="block">Chase</span>
-        </h1> */}
-
-          <div id="about" className={`px-8 flex flex-col gap-y-4 h-80`}>
+        <div className="flex flex-col gap-y-52">
+          <div id="about" className={`md:px-32 flex flex-col gap-y-4`}>
             <AboutMe />
           </div>
 
-          <div id={`skills`} className={`px-8 flex flex-col gap-y-4 h-80`}>
+          <div id={`skills`} className={`md:px-32 flex flex-col gap-y-4`}>
             <Skills />
           </div>
 
-          <div id={`experience`} className={`px-8 flex flex-col gap-y-4`}>
+          <div id={`experience`} className={`md:px-32 flex flex-col gap-y-4`}>
             <Experience />
           </div>
-          <div id={`education`} className={`px-8 flex flex-col gap-y-4`}>
+          <div id={`education`} className={`md:px-32 flex flex-col gap-y-4`}>
             <Education />
           </div>
-          <div id={`projects`} className={`px-8 flex flex-col gap-y-4`}>
+          <div id={`projects`} className={`px-0 flex flex-col gap-y-4`}>
             <Projects />
           </div>
-          <div id={`contact`} className={`px-8 flex flex-col gap-y-4`}>
-            <h1
-              className={` text-5xl font-bold black w-fit text-cen text-primary pl-4`}
-            >
-              Contact
-            </h1>
+          <div id={`contact`}>
+            <Contact />
           </div>
+          {/* <div id={`contact`} className={`px-8 flex flex-col gap-y-4`}>
+            
+          </div> */}
         </div>
       </TracingBeam>
     </main>

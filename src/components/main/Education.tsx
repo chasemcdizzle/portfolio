@@ -8,7 +8,7 @@ const Education = () => {
     <>
       <div className="flex flex-col">
         <h1
-          className={` text-5xl font-bold black w-fit text-cen text-primary pl-4`}
+          className={`text-5xl font-bold black w-fit text-cen text-primary pl-4`}
         >
           {/* !!!!!!!! PUT MOVING BORDER AROUND THIS ONE? https://ui.aceternity.com/components/moving-border */}
           Education
