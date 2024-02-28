@@ -26,7 +26,8 @@
     "scheduler": "^0.23.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
-    "typewriter-effect": "^2.21.0"
+    "typewriter-effect": "^2.21.0",
+    "usehooks-ts": "^2.15.1"
   },
   "devDependencies": {
     "@react-three/drei": "^9.97.3",
