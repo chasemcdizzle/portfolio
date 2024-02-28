@@ -38,7 +38,7 @@ export function BackgroundBoxesDemo() {
         >
           Nicholas Chase
         </h1>
-        <div className="text-xl text-center mt-2 relative z-20 flex justify-center items-baseline">
+        <div className=" text-lg md:text-xl text-center mt-2 relative z-20 flex justify-center items-baseline">
           <span className="mr-2">Is a</span>
           <div className="font-bold" style={{ display: "inline" }}>
             <Typewriter

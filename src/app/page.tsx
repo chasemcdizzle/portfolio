@@ -26,45 +26,52 @@ export default function Home() {
     <main className="h-full w-screen">
       {/* NavBar */}
       <NavBar onNavigate={handleNavigate} />
+      <div className="w-full flex flex-col bg-background  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative items-center justify-center">
+        {/* Radial gradient for the container to give a faded look */}
+        {/* <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-background bg-white [mask-image:radial-gradient(ellipse_at_center,transparent,black)]"></div> */}
 
-      {/* Tracing Beam */}
-      <TracingBeam className="px-6">
-        <div className="flex flex-col gap-20 items-center">
-          {/* <Hero /> */}
-          <BackgroundBoxesDemo />
-        </div>
-
-        {/* Content */}
-        <div className="flex flex-col gap-y-52">
-          <div id="about" className={`md:px-32 px-3 flex flex-col gap-y-4`}>
-            <AboutMe />
+        {/* Tracing Beam */}
+        <TracingBeam className="px-6">
+          <div className="flex flex-col gap-20 items-center">
+            {/* <Hero /> */}
+            <BackgroundBoxesDemo />
           </div>
 
-          <div id={`skills`} className={`md:px-32 px-3 flex flex-col gap-y-4`}>
-            <Skills />
-          </div>
+          {/* Content */}
+          <div className="flex flex-col gap-y-52">
+            <div id="about" className={`md:px-32 px-3 flex flex-col gap-y-4`}>
+              <AboutMe />
+            </div>
 
-          <div
-            id={`experience`}
-            className={`md:px-32 px-3 flex flex-col gap-y-4`}
-          >
-            <Experience />
-          </div>
-          <div
-            id={`education`}
-            className={`md:px-32 px-3 flex flex-col gap-y-4`}
-          >
-            <Education />
-          </div>
-          <div id={`projects`} className={`px-0 flex flex-col gap-y-4`}>
-            <Projects />
-          </div>
+            <div
+              id={`skills`}
+              className={`md:px-32 px-3 flex flex-col gap-y-4`}
+            >
+              <Skills />
+            </div>
 
-          {/* <div id={`contact`} className={`px-8 flex flex-col gap-y-4`}>
+            <div
+              id={`experience`}
+              className={`md:px-32 px-3 flex flex-col gap-y-4`}
+            >
+              <Experience />
+            </div>
+            <div
+              id={`education`}
+              className={`md:px-32 px-3 flex flex-col gap-y-4`}
+            >
+              <Education />
+            </div>
+            <div id={`projects`} className={`px-0 flex flex-col gap-y-4`}>
+              <Projects />
+            </div>
+
+            {/* <div id={`contact`} className={`px-8 flex flex-col gap-y-4`}>
             
           </div> */}
-        </div>
-      </TracingBeam>
+          </div>
+        </TracingBeam>
+      </div>
       <div id={`contact`}>
         <Contact />
       </div>
