@@ -60,7 +60,7 @@ type NavBarProps = {
 export const NavBar: React.FC<NavBarProps> = ({ onNavigate }) => {
   return (
     <div
-      className={`flex justify-between items-center px-4 py-2 bg-background border-b border-b-secondary`}
+      className={`hidden md:flex justify-between items-center px-4 py-2 bg-background border-b border-b-secondary`}
     >
       {/* Logo */}
       <div>
