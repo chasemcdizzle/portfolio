@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Nicholas Chase's Portfolio",
   description: "Powered by Next.js App Router",
   icons: {
-    icon: "/chase-c-1.png",
+    icon: "/chase-c-2.png",
   },
 };
 
