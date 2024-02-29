@@ -59,10 +59,9 @@ type NavBarProps = {
 
 export const NavBar: React.FC<NavBarProps> = ({ onNavigate }) => {
   return (
-    <>
-      <div className=" absolute md:hidden z-301 top-3">
+    <div className="relative h-50">
+      <div className="absolute md:hidden z-301 top-3 left-9 z-50">
         <ModeToggle />
-        testing
       </div>
       <div
         className={`hidden md:flex justify-between items-center px-4 py-2 bg-background border-b border-b-secondary`}
@@ -123,7 +122,7 @@ export const NavBar: React.FC<NavBarProps> = ({ onNavigate }) => {
           </NavigationMenu>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

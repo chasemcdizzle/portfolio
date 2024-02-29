@@ -15,6 +15,34 @@ function Projects() {
   );
 }
 export const products = [
+  // ticketz
+
+  {
+    title: "Ticketz",
+    link: "https://app.pixelperfect.quest",
+    thumbnail: "/ticketz/2.png",
+  },
+  {
+    title: "Ticketz",
+    link: "https://app.pixelperfect.quest",
+    thumbnail: "/ticketz/1.png",
+  },
+  {
+    title: "Ticketz",
+    link: "https://app.pixelperfect.quest",
+    thumbnail: "/ticketz/5.png",
+  },
+  {
+    title: "Ticketz",
+    link: "https://app.pixelperfect.quest",
+    thumbnail: "/ticketz/3.png",
+  },
+  {
+    title: "Ticketz",
+    link: "https://app.pixelperfect.quest",
+    thumbnail: "/ticketz/4.png",
+  },
+
   // AQ Installers App
   {
     title: "AQ Installer's App",
@@ -43,66 +71,32 @@ export const products = [
     thumbnail: "/AQ-Installers-App/6.png",
   },
 
-  // ticketz
-
+  // Thermostat Portal
   {
-    title: "Ticketz",
-    link: "https://app.pixelperfect.quest",
-    thumbnail: "/ticketz/5.png",
-  },
-  {
-    title: "Ticketz",
-    link: "https://app.pixelperfect.quest",
-    thumbnail: "/ticketz/2.png",
-  },
-  {
-    title: "Ticketz",
-    link: "https://app.pixelperfect.quest",
-    thumbnail: "/ticketz/1.png",
-  },
-  {
-    title: "Ticketz",
-    link: "https://app.pixelperfect.quest",
-    thumbnail: "/ticketz/4.png",
-  },
-
-  {
-    title: "Ticketz",
-    link: "https://app.pixelperfect.quest",
-    thumbnail: "/ticketz/3.png",
-  },
-
-  //
-  {
-    title: "Renderwork Studio",
+    title: "XCSpec Thermostat Portal",
     link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+    thumbnail: "/tstat_portal/control_2022-10-19_14.31.42.png",
   },
 
   {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+    title: "XCSpec Thermostat Portal",
+    link: "https://renderwork.studio",
+    thumbnail: "/tstat_portal/dashboard_2022-10-19_14.30.36.png",
   },
   {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+    title: "XCSpec Thermostat Portal",
+    link: "https://renderwork.studio",
+    thumbnail: "/tstat_portal/datanalysis2_2022-10-19_14.32.31.png",
   },
   {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+    title: "XCSpec Thermostat Portal",
+    link: "https://renderwork.studio",
+    thumbnail: "/tstat_portal/schedule_manager_2022-10-19_14.33.15.png",
   },
   {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+    title: "XCSpec Thermostat Portal",
+    link: "https://renderwork.studio",
+    thumbnail: "/tstat_portal/site_manager_2022-10-19_14.33.04.png",
   },
 ];
 

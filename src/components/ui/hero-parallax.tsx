@@ -143,8 +143,9 @@ export const ProductCard = ({
     >
       <Image
         src={product.thumbnail}
-        layout="fill"
-        objectFit="contain" // or "contain" to ensure the entire image fits within the container without cropping
+        // layout="fill"
+        fill
+        style={{ objectFit: "contain" }} // or "contain" to ensure the entire image fits within the container without cropping
         className="object-cover object-left-top absolute h-full w-full inset-0"
         alt={product.title}
       />
