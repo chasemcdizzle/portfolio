@@ -14,22 +14,22 @@ export const metadata: Metadata = {
   icons: {
     icon: "/chase-c-2.png",
   },
-  openGraph: {
-    type: "website",
-    url: "https://example.com",
-    title: "Nicholas Chase's Portfolio",
-    description: "Nicholas Chase's Portfolio Website",
-    siteName: "NickScottChase.com",
-    // images: [{
-    //   url: "https://example.com/og.png",
-    // }],
-  },
+  // openGraph: {
+  //   type: "website",
+  //   url: "https://www.nickscottchase.com",
+  //   title: "Nicholas Chase's Portfolio",
+  //   description: "Powered by Next.js App Router",
+  //   siteName: "NickScottChase.com",
+  //   // images: [{
+  //   //   url: "https://example.com/og.png",
+  //   // }],
+  // },
   twitter: {
     card: "summary_large_image",
     title: "Nicholas Chase's Portfolio",
     // site: "@site",
     creator: "@ChaseMcDizzle",
-    // "images": "https://example.com/og.png"
+    images: "https://www.nickscottchase.com/opengraph-image.jpg",
   },
 };
 
@@ -41,7 +41,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <></>
+        <meta property="og:title" content="Nicholas Chase's Portfolio" />
+        <meta
+          name="image"
+          property="og:image"
+          content="https://www.nickscottchase.com/opengraph-image.jpg"
+        />
       </Head>
       <body
         className={cn(
