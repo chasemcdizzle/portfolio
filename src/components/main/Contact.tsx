@@ -16,6 +16,9 @@ const Contact = () => {
             </h1>
             <div className="py-4">
               <p className="text-left">
+                Like what you see? <br />
+              </p>
+              <p className="text-left">
                 Interested in my work? <br />
               </p>
               <p className="text-left">
