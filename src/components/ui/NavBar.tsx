@@ -60,7 +60,7 @@ type NavBarProps = {
 export const NavBar: React.FC<NavBarProps> = ({ onNavigate }) => {
   return (
     <div className="relative h-50">
-      <div className="absolute md:hidden z-301 top-3 left-9 z-50">
+      <div className="fixed md:hidden z-301 top-3 left-9 z-50">
         <ModeToggle />
       </div>
       <div
@@ -71,6 +71,7 @@ export const NavBar: React.FC<NavBarProps> = ({ onNavigate }) => {
           {/* logo / icon / name */}
           <ModeToggle />
         </div>
+        {/* <div>Powered by Next.js</div> */}
 
         {/* Navigation */}
         <div>

@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="flex flex-col w-full align-middle items-center">
           <div className="w-fit">
             <h1
-              className={` text-5xl font-bold black w-fit text-cen text-primary`}
+              className={`text-4xl md:text-5xl font-bold black w-fit text-cen text-primary`}
             >
               Contact Me
             </h1>
