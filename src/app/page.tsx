@@ -32,8 +32,8 @@ export default function Home() {
 
         {/* Tracing Beam */}
         <TracingBeam className="px-6">
+          {/* <Hero /> */}
           <div className="flex flex-col gap-20 items-center">
-            {/* <Hero /> */}
             <HeroBgBoxes />
           </div>
 
