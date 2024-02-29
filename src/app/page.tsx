@@ -62,7 +62,7 @@ export default function Home() {
             >
               <Education />
             </div>
-            <div id={`projects`} className={`px-0 md:px-52 flex flex-col`}>
+            <div id={`projects`} className={`px-0 md:px-40 flex flex-col`}>
               <Projects />
             </div>
           </div>
