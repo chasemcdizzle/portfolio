@@ -42,6 +42,7 @@ export const HeroParallax = ({
     useTransform(scrollYProgress, [0, 0.2], [15, 0]),
     springConfig
   );
+  // const opacity = 1;
   const opacity = useSpring(
     useTransform(scrollYProgress, [0, 0.2], [0.2, 1]),
     springConfig
@@ -103,13 +104,17 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
+    <div
+      className="max-w-7xl relative mx-auto md:py-40 px-4 w-full left-0 top-0"
+      style={{ zIndex: 1000 }}
+    >
+      <h1
+        className="text-2xl md:text-7xl font-bold dark:text-white"
+        style={{ position: "relative", zIndex: 1001 }}
+      >
         Projects
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        A small collection of projects I have accrued over the years.
-      </p>
+      {/* Additional content */}
     </div>
   );
 };
@@ -138,8 +143,8 @@ export const ProductCard = ({
     >
       <Image
         src={product.thumbnail}
-        height="600"
-        width="600"
+        layout="fill"
+        objectFit="contain" // or "contain" to ensure the entire image fits within the container without cropping
         className="object-cover object-left-top absolute h-full w-full inset-0"
         alt={product.title}
       />

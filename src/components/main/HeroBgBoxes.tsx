@@ -10,9 +10,9 @@ const Typewriter = dynamic(
 );
 import { SparklesCore } from "@/components/ui/sparkles";
 
-export function BackgroundBoxesDemo() {
+export function HeroBgBoxes() {
   return (
-    <div className=" min-h-80 relative w-full overflow-hidden bg-transparent flex flex-col items-center justify-center">
+    <div className=" min-h-80 relative w-full overflow-hidden bg-transparent flex flex-col items-center justify-center py-4">
       <div
         id="wrapper"
         className="flex flex-col items-center justify-center w-full z-30" // Increase z-index to layer above the Boxes

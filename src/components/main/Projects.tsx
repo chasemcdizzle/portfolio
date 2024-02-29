@@ -15,68 +15,64 @@ function Projects() {
   );
 }
 export const products = [
+  // AQ Installers App
   {
-    title: "Moonbeam",
+    title: "AQ Installer's App",
     link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+    thumbnail: "/AQ-Installers-App/2.png",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+    title: "AQ Installer's App",
+    link: "https://gomoonbeam.com",
+    thumbnail: "/AQ-Installers-App/3.png",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+    title: "AQ Installer's App",
+    link: "https://gomoonbeam.com",
+    thumbnail: "/AQ-Installers-App/4.png",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+    title: "AQ Installer's App",
+    link: "https://gomoonbeam.com",
+    thumbnail: "/AQ-Installers-App/5.png",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+    title: "AQ Installer's App",
+    link: "https://gomoonbeam.com",
+    thumbnail: "/AQ-Installers-App/6.png",
   },
+
+  // ticketz
+
   {
-    title: "Pixel Perfect",
+    title: "Ticketz",
     link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+    thumbnail: "/ticketz/5.png",
+  },
+  {
+    title: "Ticketz",
+    link: "https://app.pixelperfect.quest",
+    thumbnail: "/ticketz/2.png",
+  },
+  {
+    title: "Ticketz",
+    link: "https://app.pixelperfect.quest",
+    thumbnail: "/ticketz/1.png",
+  },
+  {
+    title: "Ticketz",
+    link: "https://app.pixelperfect.quest",
+    thumbnail: "/ticketz/4.png",
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+    title: "Ticketz",
+    link: "https://app.pixelperfect.quest",
+    thumbnail: "/ticketz/3.png",
   },
-  {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
-  },
-  {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
+
+  //
   {
     title: "Renderwork Studio",
     link: "https://renderwork.studio",

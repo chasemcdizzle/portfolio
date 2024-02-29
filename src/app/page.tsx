@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 import Hero from "@/components/main/Hero";
-import { BackgroundBoxesDemo } from "@/components/main/HeroBgBoxes";
+import { HeroBgBoxes } from "@/components/main/HeroBgBoxes";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import { NavBar } from "@/components/ui/NavBar";
 import AboutMe from "@/components/main/AboutMe";
@@ -34,7 +34,7 @@ export default function Home() {
         <TracingBeam className="px-6">
           <div className="flex flex-col gap-20 items-center">
             {/* <Hero /> */}
-            <BackgroundBoxesDemo />
+            <HeroBgBoxes />
           </div>
 
           {/* Content */}

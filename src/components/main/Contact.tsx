@@ -42,6 +42,10 @@ const Contact = () => {
               >
                 <Button variant={"link"}>LinkedIn</Button>
               </Link>
+              {/* https://github.com/chasemcdizzle */}
+              <Link target="_blank" href="https://github.com/chasemcdizzle">
+                <Button variant={"link"}>GitHub</Button>
+              </Link>
               <Link target="_blank" href="https://twitter.com/ChaseMcdizzle">
                 <Button variant={"link"}>Twitter</Button>
               </Link>
