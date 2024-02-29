@@ -135,9 +135,9 @@ export const ProductCard = ({
       style={{
         x: translate,
       }}
-      whileHover={{
-        y: -20,
-      }}
+      // whileHover={{
+      //   y: -20,
+      // }}
       key={product.title}
       className="group/product h-96 w-[30rem] relative flex-shrink-0"
     >
@@ -161,10 +161,10 @@ export const ProductCard = ({
           alt={product.title}
         />
       </Link> */}
-      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
+      {/* <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
         {product.title}
-      </h2>
+      </h2> */}
     </motion.div>
   );
 };

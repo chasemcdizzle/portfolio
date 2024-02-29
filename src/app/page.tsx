@@ -65,10 +65,6 @@ export default function Home() {
             <div id={`projects`} className={`px-0 flex flex-col`}>
               <Projects />
             </div>
-
-            {/* <div id={`contact`} className={`px-8 flex flex-col gap-y-4`}>
-            
-          </div> */}
           </div>
         </TracingBeam>
       </div>

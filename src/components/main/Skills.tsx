@@ -22,53 +22,49 @@ const Skills = () => {
         Skills
       </h1>
       {!isMobile ? (
-        <div className="w-full bg-background   dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex flex-col items-center justify-center">
+        <div className="w-full bg-background dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex flex-col items-center justify-center">
           {/* Radial gradient for the container to give a faded look */}
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-background  [mask-image:radial-gradient(ellipse_at_center,transparent,black)]"></div>
-          <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
-            <div className="flex flex-row items-center justify-center mb-10 w-full">
-              <AnimatedTooltip items={skills} />
-            </div>
-          </p>
-          <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-2">
-            <div className="flex flex-row items-center justify-center mb-10 w-full">
-              <AnimatedTooltip items={skills2} />
-            </div>
-          </p>
+
+          <div className="flex flex-row items-center justify-center py-5 w-full">
+            <AnimatedTooltip items={skills} />
+          </div>
+
+          <div className="flex flex-row items-center justify-center py-5 w-full">
+            <AnimatedTooltip items={skills2} />
+          </div>
+
           <br />
         </div>
       ) : (
         <div className=" w-full bg-background   dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex flex-col items-center justify-center">
           {/* Radial gradient for the container to give a faded look */}
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-background  [mask-image:radial-gradient(ellipse_at_center,transparent,black)]"></div>
-          <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
-            <div className="flex flex-row items-center justify-center mb-10 w-full">
-              <AnimatedTooltip
-                items={skills.slice(0, Math.floor(skills.length / 2) + 1)}
-              />
-            </div>
-          </p>
-          <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
-            <div className="flex flex-row items-center justify-center mb-10 w-full">
-              <AnimatedTooltip
-                items={skills.slice(Math.floor(skills.length / 2) + 1)}
-              />
-            </div>
-          </p>
-          <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-2">
-            <div className="flex flex-row items-center justify-center mb-10 w-full">
-              <AnimatedTooltip
-                items={skills2.slice(0, Math.floor(skills2.length / 2))}
-              />
-            </div>
-          </p>
-          <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-2">
-            <div className="flex flex-row items-center justify-center mb-10 w-full">
-              <AnimatedTooltip
-                items={skills2.slice(Math.floor(skills2.length / 2))}
-              />
-            </div>
-          </p>
+
+          <div className="flex flex-row items-center justify-center py-5 w-full">
+            <AnimatedTooltip
+              items={skills.slice(0, Math.floor(skills.length / 2) + 1)}
+            />
+          </div>
+
+          <div className="flex flex-row items-center justify-center py-5 w-full">
+            <AnimatedTooltip
+              items={skills.slice(Math.floor(skills.length / 2) + 1)}
+            />
+          </div>
+
+          <div className="flex flex-row items-center justify-center py-5 w-full">
+            <AnimatedTooltip
+              items={skills2.slice(0, Math.floor(skills2.length / 2))}
+            />
+          </div>
+
+          <div className="flex flex-row items-center justify-center py-5 w-full">
+            <AnimatedTooltip
+              items={skills2.slice(Math.floor(skills2.length / 2))}
+            />
+          </div>
+
           <br />
         </div>
       )}
