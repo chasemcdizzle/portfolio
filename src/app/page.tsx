@@ -31,7 +31,7 @@ export default function Home() {
         {/* <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-background bg-white [mask-image:radial-gradient(ellipse_at_center,transparent,black)]"></div> */}
 
         {/* Tracing Beam */}
-        <TracingBeam className="px-6">
+        <TracingBeam className="">
           {/* <Hero /> */}
           <div className="flex flex-col gap-20 items-center">
             <HeroBgBoxes />
@@ -39,7 +39,7 @@ export default function Home() {
 
           {/* Content */}
           <div className="flex flex-col gap-y-52">
-            <div id="about" className={`md:px-32 px-3 flex flex-col gap-y-4`}>
+            <div id="about" className={`flex flex-col gap-y-4`}>
               <AboutMe />
             </div>
 
