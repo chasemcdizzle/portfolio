@@ -14,7 +14,7 @@ const Education = () => {
           Education
         </h1>
         <Spotlight
-          className="-top-40 left-0 md:left-60 md:-top-20"
+          className="-top-40 left-0 md:left-60 md:-top-20 hidden md:block"
           fill="white"
         />
         <CardContainer className="inter-var">
