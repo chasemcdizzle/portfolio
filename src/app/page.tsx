@@ -33,36 +33,36 @@ export default function Home() {
         {/* Tracing Beam */}
         <TracingBeam className="">
           {/* <Hero /> */}
-          <div className="flex flex-col gap-20 items-center">
+          <div className="flex flex-col gap-20 w-full items-center">
             <HeroBgBoxes />
           </div>
 
           {/* Content */}
           <div className="flex flex-col gap-y-52">
-            <div id="about" className={`flex flex-col gap-y-4`}>
+            <div id="about" className={`md:px-60 px-3 flex flex-col gap-y-4`}>
               <AboutMe />
             </div>
 
             <div
               id={`skills`}
-              className={`md:px-32 px-3 flex flex-col gap-y-4`}
+              className={`md:px-60 px-3 flex flex-col gap-y-4`}
             >
               <Skills />
             </div>
 
             <div
               id={`experience`}
-              className={`md:px-32 px-3 flex flex-col gap-y-4`}
+              className={`md:px-60 px-3 flex flex-col gap-y-4`}
             >
               <Experience />
             </div>
             <div
               id={`education`}
-              className={`md:px-32 px-3 flex flex-col gap-y-4`}
+              className={`md:px-60 px-3 flex flex-col gap-y-4`}
             >
               <Education />
             </div>
-            <div id={`projects`} className={`px-0 flex flex-col`}>
+            <div id={`projects`} className={`px-0 md:px-52 flex flex-col`}>
               <Projects />
             </div>
           </div>

@@ -8,6 +8,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.nickscottchase.com"),
   title: "Nicholas Chase's Portfolio",
   description: "Powered by Next.js App Router",
   icons: {
