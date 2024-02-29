@@ -15,9 +15,9 @@ const Contact = () => {
               Contact Me
             </h1>
             <div className="py-4">
-              <p className="text-left">
+              {/* <p className="text-left">
                 Like what you see? <br />
-              </p>
+              </p> */}
               <p className="text-left">
                 Interested in my work? <br />
               </p>
