@@ -14,16 +14,18 @@ export const metadata: Metadata = {
   icons: {
     icon: "/chase-c-2.png",
   },
-  // openGraph: {
-  //   type: "website",
-  //   url: "https://www.nickscottchase.com",
-  //   title: "Nicholas Chase's Portfolio",
-  //   description: "Powered by Next.js App Router",
-  //   siteName: "NickScottChase.com",
-  //   // images: [{
-  //   //   url: "https://example.com/og.png",
-  //   // }],
-  // },
+  openGraph: {
+    type: "website",
+    url: "https://www.nickscottchase.com",
+    title: "Nicholas Chase's Portfolio",
+    description: "Powered by Next.js App Router",
+    siteName: "NickScottChase.com",
+    images: [
+      {
+        url: "https://www.nickscottchase.com/opengraph-image.jpg",
+      },
+    ],
+  },
   twitter: {
     card: "summary_large_image",
     title: "Nicholas Chase's Portfolio",
