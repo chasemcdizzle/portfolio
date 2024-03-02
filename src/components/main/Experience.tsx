@@ -47,11 +47,13 @@ const Experience = () => {
               </svg>
             </div>
             <div className="w-full text-right">
-              <h1 className="font-bold text-xl  mb-4 relative z-50">
+              <h1 className="font-bold text-xl mb-4 relative z-50 dark:text-white text-black">
                 Senior Software Engineer
               </h1>
 
-              <p className="mb-4 relative z-50">XCSpec · Full-time</p>
+              <p className="mb-4 relative z-50 dark:text-white text-black">
+                XCSpec · Full-time
+              </p>
 
               <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
                 Sep 2015 - Present
@@ -85,11 +87,13 @@ const Experience = () => {
               </svg>
             </div>
             <div className="w-full text-right">
-              <h1 className="font-bold text-xl mb-4 relative z-50">
+              <h1 className="font-bold text-xl mb-4 relative z-50 dark:text-white text-black">
                 Front-End Software Engineer
               </h1>
 
-              <p className="mb-4 relative z-50">Evensale · Part-time</p>
+              <p className="mb-4 relative z-50 dark:text-white text-black">
+                Evensale · Part-time
+              </p>
 
               <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
                 Jun 2012 - Aug 2012
