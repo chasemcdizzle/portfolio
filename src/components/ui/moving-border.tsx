@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils/cn";
 export function Button({
   borderRadius = "1.75rem",
   children,
-  as: Component = "button",
+  as: Component = "div",
   containerClassName,
   borderClassName,
   duration,
